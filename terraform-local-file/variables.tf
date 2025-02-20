@@ -1,5 +1,5 @@
 variable "filename" {
-  default = "/root/file1.txt"
+  default = "/Users/manoj/Git/terraform-learning/resources/file1.txt"
 }
 variable "content" {
   default = "Hello World Terraform !"

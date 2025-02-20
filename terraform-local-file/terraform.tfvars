@@ -1,6 +1,6 @@
     
 
-content = "This should override the content variable value mentioned in variable.tf"
+/*content = "This should override the content variable value mentioned in variable.tf" */
 
  /*
 terraform.tfvars provides the actual values for those variables. 

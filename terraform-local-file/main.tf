@@ -5,12 +5,12 @@ resource "local_file" "localFile1" {
 }
 
 resource "local_file" "localFile2" {
-  filename = "/root/file2.txt"
+  filename = "/Users/manoj/Git/terraform-learning/resources/file2.txt"
   content = var.customizedContent.content1
 }
 
 resource "local_file" "pet" {
-  filename = "/root/pets.txt"
+  filename = "/Users/manoj/Git/terraform-learning/resources/pets.txt"
   content = "My favourite Pet is ${random_pet.pet-name.id} "
 }
 
