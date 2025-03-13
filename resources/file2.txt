@@ -1,0 +1,1 @@
+Two terraform resource in same tf file !

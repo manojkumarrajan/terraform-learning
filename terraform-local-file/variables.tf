@@ -3,6 +3,8 @@ variable "filename" {
 }
 variable "content" {
   default = "Hello World Terraform !"
+  type = string
+  description = "type and description are optional."
 }
 
 variable "customizedContent" {

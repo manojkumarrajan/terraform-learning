@@ -1,10 +1,10 @@
-resource "local_file" "localFile1" {
+resource "local_file" "file1" {
   filename = var.filename
   file_permission = 0744
   content = var.content
 }
 
-resource "local_file" "localFile2" {
+resource "local_file" "file2" {
   filename = "/Users/manoj/Git/terraform-learning/resources/file2.txt"
   content = var.customizedContent.content1
 }
@@ -15,9 +15,9 @@ resource "local_file" "pet" {
 }
 
 resource "random_pet" "pet-name" {
-  prefix = "Mrs"
-  separator = "."
-  length = 4
+  prefix = "Mr"
+  separator = " "
+  length = 3
 }
 
 output "pet-name" {
